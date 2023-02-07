@@ -1,2 +1,6 @@
-<h1>Main#home</h1>
+<h1>This is Home</h1>
 <p>Find me in app/views/main/home.html.erb</p>
+
+<% if current_user%>
+Email:<%=current_user.email%>
+<%end%>
