@@ -8,7 +8,7 @@
 
          <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
         <div class="field mt-5">
-        <%= f.email_field :email, autofocus: true, autocomplete: "email" ,placeholder:"Email" , class:"form-control py-2" %>
+        <%= f.text_field :username, placeholder:"Email or Username" , class:"form-control py-2" %>
   </div>
 
   <div class="field mt-3">
